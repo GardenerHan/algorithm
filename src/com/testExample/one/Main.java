@@ -1,4 +1,4 @@
-package com.page1.one;
+package com.testExample.one;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

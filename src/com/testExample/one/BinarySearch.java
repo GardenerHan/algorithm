@@ -1,4 +1,4 @@
-package com.page1.one;
+package com.testExample.one;
 
 import myalgorithm.basics.In;
 import myalgorithm.basics.StdIn;
@@ -11,6 +11,7 @@ public class BinarySearch {
         //args[0]是一个txt文件
         int[] whitelist = In.readInts(args[0]) ;
         Arrays.sort(whitelist);
+
         while (!StdIn.isEmpty()){
             int key = StdIn.readInt() - 1  ;
             if (rank(key,whitelist) == -1){
